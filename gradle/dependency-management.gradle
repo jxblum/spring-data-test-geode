@@ -1,6 +1,7 @@
 dependencyManagement {
 	imports {
 		mavenBom "org.springframework.boot:spring-boot-dependencies:$springBootVersion"
+		mavenBom "org.springframework.geode:spring-geode-bom:$springGeodeBomVersion"
 	}
 	dependencies {
 		dependency "antlr:antlr:$antlrVersion"

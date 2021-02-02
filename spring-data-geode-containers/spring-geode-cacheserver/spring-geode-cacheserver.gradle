@@ -1,0 +1,12 @@
+apply plugin: 'io.spring.convention.spring-sample-boot'
+
+description = "Docker Container (source) for a simple Spring Boot, Apache Geode CacheServer application."
+
+dependencies {
+
+	compile "org.springframework.geode:spring-geode-starter"
+	compile "org.springframework.geode:spring-geode-starter-logging"
+
+	compileOnly "com.google.code.findbugs:jsr305:$findbugsVersion"
+
+}
